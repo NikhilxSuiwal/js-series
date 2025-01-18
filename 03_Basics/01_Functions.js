@@ -30,7 +30,23 @@ function loginUserMessage(username){
     return `${username} just logged in`
 }
 
-console.log(loginUserMessage())
+// console.log(loginUserMessage())
+
+function calculateCartPrice(val1, val2,...num1){
+    return num1
+}
+// console.log(calculateCartPrice(2,200,300,500));
+
+const user= {
+    username: "Nikhil",
+    price: 199
+}
+
+function handleObject(anyObject){
+    console.log(`User name is ${anyObject.username} and the price of the user is ${anyObject.price}`);
+}
+handleObject(user);
+
 
 
 
