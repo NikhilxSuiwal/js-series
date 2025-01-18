@@ -9,7 +9,7 @@ const name2= ["Yash", "Punit", "Abhi"]
 
 // console.log(name3)
 
-const name4= [...name1, ...name2]
+const name4= [...name1, ...name2]  // this is known as spread operator to concate array.
 console.log(name4)
 
 
